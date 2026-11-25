@@ -1,0 +1,17 @@
+name: OlumList
+version: 1.0.0
+main: com.zornoely.olumlist.OlumListPlugin
+api-version: '1.21'
+description: Oyuncularin olum gecmisini kagit olarak menude gosterir.
+
+commands:
+  olumlist:
+    description: Olum gecmisi menusunu acar.
+    usage: /olumlist
+    aliases: [ölümlist, ölümler, olumler]
+    permission: olumlist.use
+
+permissions:
+  olumlist.use:
+    description: /olumlist komutunu kullanma izni.
+    default: true
